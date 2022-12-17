@@ -54,13 +54,21 @@ Jika kita memiliki kode yang kemungkinan mencurigakan yang mungking dapat mengel
 - kita dapat menggunakan pernyataan execption tanpa exception 
 
 try:
+
 You do your operatons here;
+
 .......................................
+
 except:
+
 If there is any exception, then execute this block.
+
 ......................................
+
 else:
+
 If there is no exception then execute this block.
+
 
 Pernyataan coba kecuali ini menangkap semua pengecualian yang ada menggunakan percobaan try-except pernyataan tidak di bisa di anggap sebagai praktik dalam pemrograman yang baik karena dapat memunculkan pengecualian 
 
@@ -69,13 +77,21 @@ Pernyataan coba kecuali ini menangkap semua pengecualian yang ada menggunakan pe
 - Kita juga dapat menggunakan pertanyaan exception yang kurang lebih sama
 
  try:
+ 
 You do your operatons here;
+
 .......................................
+
 except(Exception1[, Exception2[,...ExceptionN]]]):
+
 If There isbany exception from the given exception list,
+
 Then execute this block.
+
 ......................................
+
 else:
+
 If there is no exception then execute this block.
 
 # Contoh
